@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="./styleMyContactForm.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Fill Up the Form</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="FirstName">First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" required>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="LastName">Last Name:</label>
+                <input type="text" id="LastName" name="LastName">
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="Email Address">Email:</label>
+                <input type="email" id="Email" name="Email" required>
+                <span class="bar"></span>
+            </div>
+            <div class="input-group">
+                <label for="Contact">Contact Number:</label>
+                <input type="tel" id="phone" name="Phone">
+                <span class="bar"></span>
+            </div>
+            <div class="input-group">
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" name="Password" required>
+                <span class="bar"></span>
+            </div>
+        </form>
+        <h5>Gender:</h5>
+        <div class="radio-group">
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="Gender" value="Other">
+            <label for="other">Other</label>
+        </div>
+         <h5>Country:</h5>
+        <select name="country" id="country">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Australia">Australia</option>
+            <option value="Other">Other</option>
+        </select>
+        <h5>Do You Agree?</h5>
+        <div class="checkbox-group">
+            <input type="checkbox" id="Agree" name="Agree" value="Yes">
+            <label for="Agree">I agree</label>
+            <input type="checkbox" id="Don'tAgree" name="Don'tAgree" value="Yes">
+            <label for="Don'tAgree">Don't Agree</label>
+        </div>
+       
+        <div class="submitButton">
+        <button type="submit">Send Your Message<span class="send-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </span></button>
+    </div>
+    </div>
+    
+
+</body>
+</html>
